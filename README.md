@@ -36,5 +36,5 @@ This project is still under development. Core features such as product listings,
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/ecommerce-store.git
-   cd ecommerce-store
+   git clone https://github.com/Arun-r485/Grooveo.git
+   cd Grooveo
