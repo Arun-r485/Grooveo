@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-night: #1a2e1a;
+  --color-canopy: #2d4a1e;
+  --color-leaf-green: #5a9a3a;
+  --color-leaf-dark: #4a8a2a;
+  --color-spring-lime: #8fcc60;
+  --color-mint-mist: #c8e6b0;
+  --color-sage-whisper: #f0f7ea;
+  --color-warm-ivory: #f5f0e8;
+
+  --color-harvest-gold: #e8a020;
+  --color-urgent-coral: #d94f2e;
+  --color-trust-blue: #2c7bb5;
+}
+
+@plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.stepper-pop {
+  animation: pop 0.22s ease;
+}

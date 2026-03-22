@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(curl -s -X POST http://localhost:5000/eco/auth/login -H \"Content-Type: application/json\" -d '{\"\"\"\"email\"\"\"\":\"\"\"\"demo@ecopack.in\"\"\"\",\"\"\"\"password\"\"\"\":\"\"\"\"Demo@1234\"\"\"\"}')",
+      "Bash(curl -s http://localhost:5000/eco/products)",
+      "Bash(curl -s -X POST http://localhost:5000/eco/auth/login -H \"Content-Type: application/json\" -d '{\"\"email\"\":\"\"demo@ecopack.in\"\",\"\"password\"\":\"\"Demo@1234\"\"}')",
+      "Read(//tmp/**)",
+      "Bash(curl:*)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :5000)",
+      "Bash(taskkill:*)"
+    ]
+  }
+}
